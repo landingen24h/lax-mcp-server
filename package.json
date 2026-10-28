@@ -10,6 +10,7 @@
   "files": ["dist", "src", "bin", "README.md", "LICENSE"],
   "scripts": {
     "test": "node --import tsx --test test/*.test.ts",
+    "coverage": "node --import tsx --test --experimental-test-coverage test/*.test.ts",
     "typecheck": "tsc -p tsconfig.test.json", "build": "tsc", "prepublishOnly": "npm run build && npm test"
   },
   "engines": { "node": ">=20" },
