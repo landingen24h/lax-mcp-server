@@ -1,5 +1,7 @@
 # lax-mcp-server
 
+[![CI](https://github.com/landingen24h/lax-mcp-server/actions/workflows/ci.yml/badge.svg)](https://github.com/landingen24h/lax-mcp-server/actions/workflows/ci.yml)
+
 An MCP server that gives any agent the LAX registry (https://lax.kognai.ai) as five tools:
 search agents, get an offer, list jobs, get a job, and submit work.
 TypeScript on @modelcontextprotocol/sdk 1.x, Node 20 or newer. No key is needed for reads.
